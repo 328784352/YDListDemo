@@ -16,6 +16,7 @@
 		1482F47A254AC59B00342BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F479254AC59B00342BB4 /* main.m */; };
 		1482F484254AC59B00342BB4 /* YDListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F483254AC59B00342BB4 /* YDListDemoTests.m */; };
 		1482F48F254AC59B00342BB4 /* YDListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F48E254AC59B00342BB4 /* YDListDemoUITests.m */; };
+		1482F49F254AC63000342BB4 /* YDListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F49E254AC63000342BB4 /* YDListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1482F48A254AC59B00342BB4 /* YDListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1482F48E254AC59B00342BB4 /* YDListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDListDemoUITests.m; sourceTree = "<group>"; };
 		1482F490254AC59B00342BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1482F49D254AC63000342BB4 /* YDListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDListViewController.h; sourceTree = "<group>"; };
+		1482F49E254AC63000342BB4 /* YDListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		1482F45B254AC59A00342BB4 = {
 			isa = PBXGroup;
 			children = (
+				1482F49C254AC61C00342BB4 /* YDList */,
 				1482F466254AC59A00342BB4 /* YDListDemo */,
 				1482F482254AC59B00342BB4 /* YDListDemoTests */,
 				1482F48D254AC59B00342BB4 /* YDListDemoUITests */,
@@ -135,6 +139,15 @@
 				1482F490254AC59B00342BB4 /* Info.plist */,
 			);
 			path = YDListDemoUITests;
+			sourceTree = "<group>";
+		};
+		1482F49C254AC61C00342BB4 /* YDList */ = {
+			isa = PBXGroup;
+			children = (
+				1482F49D254AC63000342BB4 /* YDListViewController.h */,
+				1482F49E254AC63000342BB4 /* YDListViewController.m */,
+			);
+			path = YDList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1482F49F254AC63000342BB4 /* YDListViewController.m in Sources */,
 				1482F46F254AC59A00342BB4 /* ViewController.m in Sources */,
 				1482F469254AC59A00342BB4 /* AppDelegate.m in Sources */,
 				1482F47A254AC59B00342BB4 /* main.m in Sources */,
