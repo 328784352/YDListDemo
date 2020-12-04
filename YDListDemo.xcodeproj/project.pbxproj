@@ -16,7 +16,7 @@
 		1482F47A254AC59B00342BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F479254AC59B00342BB4 /* main.m */; };
 		1482F484254AC59B00342BB4 /* YDListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F483254AC59B00342BB4 /* YDListDemoTests.m */; };
 		1482F48F254AC59B00342BB4 /* YDListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F48E254AC59B00342BB4 /* YDListDemoUITests.m */; };
-		1482F49F254AC63000342BB4 /* YDListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F49E254AC63000342BB4 /* YDListViewController.m */; };
+		C4AC6109016AE466E46F6EE6 /* libPods-YDListDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C492DC29EB015FCCDF6F5 /* libPods-YDListDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005C492DC29EB015FCCDF6F5 /* libPods-YDListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1482F464254AC59A00342BB4 /* YDListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1482F467254AC59A00342BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1482F468254AC59A00342BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +56,8 @@
 		1482F48A254AC59B00342BB4 /* YDListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1482F48E254AC59B00342BB4 /* YDListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDListDemoUITests.m; sourceTree = "<group>"; };
 		1482F490254AC59B00342BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1482F49D254AC63000342BB4 /* YDListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDListViewController.h; sourceTree = "<group>"; };
-		1482F49E254AC63000342BB4 /* YDListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDListViewController.m; sourceTree = "<group>"; };
+		2100452BF365E87361AA9E28 /* Pods-YDListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDListDemo.release.xcconfig"; path = "Target Support Files/Pods-YDListDemo/Pods-YDListDemo.release.xcconfig"; sourceTree = "<group>"; };
+		95F85E4BF1806DFBD074C868 /* Pods-YDListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDListDemo.debug.xcconfig"; path = "Target Support Files/Pods-YDListDemo/Pods-YDListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AC6109016AE466E46F6EE6 /* libPods-YDListDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +89,12 @@
 		1482F45B254AC59A00342BB4 = {
 			isa = PBXGroup;
 			children = (
-				1482F49C254AC61C00342BB4 /* YDList */,
 				1482F466254AC59A00342BB4 /* YDListDemo */,
 				1482F482254AC59B00342BB4 /* YDListDemoTests */,
 				1482F48D254AC59B00342BB4 /* YDListDemoUITests */,
 				1482F465254AC59A00342BB4 /* Products */,
+				70F010768A2D1208A0DAE97D /* Pods */,
+				5F71F28121A074DAB83398A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,13 +144,21 @@
 			path = YDListDemoUITests;
 			sourceTree = "<group>";
 		};
-		1482F49C254AC61C00342BB4 /* YDList */ = {
+		5F71F28121A074DAB83398A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1482F49D254AC63000342BB4 /* YDListViewController.h */,
-				1482F49E254AC63000342BB4 /* YDListViewController.m */,
+				005C492DC29EB015FCCDF6F5 /* libPods-YDListDemo.a */,
 			);
-			path = YDList;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F010768A2D1208A0DAE97D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95F85E4BF1806DFBD074C868 /* Pods-YDListDemo.debug.xcconfig */,
+				2100452BF365E87361AA9E28 /* Pods-YDListDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1482F493254AC59B00342BB4 /* Build configuration list for PBXNativeTarget "YDListDemo" */;
 			buildPhases = (
+				D75534E69B58716672E3F48F /* [CP] Check Pods Manifest.lock */,
 				1482F460254AC59A00342BB4 /* Sources */,
 				1482F461254AC59A00342BB4 /* Frameworks */,
 				1482F462254AC59A00342BB4 /* Resources */,
@@ -275,12 +287,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D75534E69B58716672E3F48F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YDListDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1482F460254AC59A00342BB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1482F49F254AC63000342BB4 /* YDListViewController.m in Sources */,
 				1482F46F254AC59A00342BB4 /* ViewController.m in Sources */,
 				1482F469254AC59A00342BB4 /* AppDelegate.m in Sources */,
 				1482F47A254AC59B00342BB4 /* main.m in Sources */,
@@ -451,6 +487,7 @@
 		};
 		1482F494254AC59B00342BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F85E4BF1806DFBD074C868 /* Pods-YDListDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +505,7 @@
 		};
 		1482F495254AC59B00342BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2100452BF365E87361AA9E28 /* Pods-YDListDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
