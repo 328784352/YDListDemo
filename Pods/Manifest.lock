@@ -1,16 +1,3 @@
-PODS:
-  - YDList (0.0.1)
-
-DEPENDENCIES:
-  - YDList (from `YDList.podspec`)
-
-EXTERNAL SOURCES:
-  YDList:
-    :path: YDList.podspec
-
-SPEC CHECKSUMS:
-  YDList: bec78305abfcf194f3037a586cb10ddf02f6609c
-
-PODFILE CHECKSUM: f091831f99ce4c6389ebdcb1bdf8d3c35e6c52dc
+PODFILE CHECKSUM: 022209f7674e602ff4176aa1b99a2b4da4f2285d
 
 COCOAPODS: 1.9.3

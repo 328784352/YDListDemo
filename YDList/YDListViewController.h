@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YDListViewController : UIViewController
 
+typedef void (^CallbackType)(NSString *param);
+@property (nonatomic,copy) CallbackType callback;
+@property (nonatomic,copy) NSString *message;
+
 @end
 
 NS_ASSUME_NONNULL_END

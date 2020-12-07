@@ -3,6 +3,6 @@
 
 target 'YDListDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
-  pod 'YDList', :path => "YDList.podspec"
+  #pod 'YDList', :path => "YDList.podspec"
 
 end

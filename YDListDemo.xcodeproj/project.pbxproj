@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142A4CAB257DD8BD00B7D440 /* YDListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A4CA8257DD8BC00B7D440 /* YDListViewController.m */; };
+		142A4CAC257DD8BD00B7D440 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 142A4CA9257DD8BC00B7D440 /* LICENSE */; };
+		142A4CC1257E312A00B7D440 /* Target_YDList.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A4CC0257E312A00B7D440 /* Target_YDList.m */; };
 		1482F469254AC59A00342BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F468254AC59A00342BB4 /* AppDelegate.m */; };
 		1482F46C254AC59A00342BB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F46B254AC59A00342BB4 /* SceneDelegate.m */; };
 		1482F46F254AC59A00342BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482F46E254AC59A00342BB4 /* ViewController.m */; };
@@ -38,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		005C492DC29EB015FCCDF6F5 /* libPods-YDListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142A4CA8257DD8BC00B7D440 /* YDListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDListViewController.m; sourceTree = "<group>"; };
+		142A4CA9257DD8BC00B7D440 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		142A4CAA257DD8BC00B7D440 /* YDListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDListViewController.h; sourceTree = "<group>"; };
+		142A4CBF257E312A00B7D440 /* Target_YDList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_YDList.h; sourceTree = "<group>"; };
+		142A4CC0257E312A00B7D440 /* Target_YDList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_YDList.m; sourceTree = "<group>"; };
 		1482F464254AC59A00342BB4 /* YDListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1482F467254AC59A00342BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1482F468254AC59A00342BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,9 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142A4CA7257DD8BC00B7D440 /* YDList */ = {
+			isa = PBXGroup;
+			children = (
+				142A4CAA257DD8BC00B7D440 /* YDListViewController.h */,
+				142A4CA8257DD8BC00B7D440 /* YDListViewController.m */,
+				142A4CA9257DD8BC00B7D440 /* LICENSE */,
+				142A4CBF257E312A00B7D440 /* Target_YDList.h */,
+				142A4CC0257E312A00B7D440 /* Target_YDList.m */,
+			);
+			path = YDList;
+			sourceTree = "<group>";
+		};
 		1482F45B254AC59A00342BB4 = {
 			isa = PBXGroup;
 			children = (
+				142A4CA7257DD8BC00B7D440 /* YDList */,
 				1482F466254AC59A00342BB4 /* YDListDemo */,
 				1482F482254AC59B00342BB4 /* YDListDemoTests */,
 				1482F48D254AC59B00342BB4 /* YDListDemoUITests */,
@@ -267,6 +288,7 @@
 			files = (
 				1482F477254AC59B00342BB4 /* LaunchScreen.storyboard in Resources */,
 				1482F474254AC59B00342BB4 /* Assets.xcassets in Resources */,
+				142A4CAC257DD8BD00B7D440 /* LICENSE in Resources */,
 				1482F472254AC59A00342BB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,8 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142A4CAB257DD8BD00B7D440 /* YDListViewController.m in Sources */,
 				1482F46F254AC59A00342BB4 /* ViewController.m in Sources */,
 				1482F469254AC59A00342BB4 /* AppDelegate.m in Sources */,
+				142A4CC1257E312A00B7D440 /* Target_YDList.m in Sources */,
 				1482F47A254AC59B00342BB4 /* main.m in Sources */,
 				1482F46C254AC59A00342BB4 /* SceneDelegate.m in Sources */,
 			);
