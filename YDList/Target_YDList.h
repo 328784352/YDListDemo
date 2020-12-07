@@ -15,15 +15,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@implementation Target_YDList
-
-- (UIViewController *)Action_pushOCYDList:(NSDictionary *)params{
-    YDListViewController *ydList = [[YDListViewController alloc] init];
-    ydList.callback = params[@"callback"];
-    ydList.message = params[@"message"];
-    return ydList;
-}
-
-@end
-
 NS_ASSUME_NONNULL_END
